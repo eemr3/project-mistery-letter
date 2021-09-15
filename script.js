@@ -21,6 +21,12 @@ function rgenerateCassList() {
   return getClassArray;
 }
 
+function wordCounter() {
+  const wordCount = document.querySelector('#carta-contador');
+  const inputLetter = document.querySelector('#carta-texto');
+  wordCount.innerHTML = inputLetter.value.split(' ').length;
+}
+
 function generateLetter() {
   const printLetter = getElementParagraph();
   const inputLetter = document.querySelector('#carta-texto');
@@ -35,8 +41,10 @@ function generateLetter() {
       const spanLetter = document.createElement('span');
       spanLetter.innerHTML = letterValue[index];
       spanLetter.classList.add(getClassStyle);
+      spanLetter.style.display = 'inline-block';
       printLetter.appendChild(spanLetter);
     }
+    wordCounter();
   }
 }
 
