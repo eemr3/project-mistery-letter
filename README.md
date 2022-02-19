@@ -33,7 +33,7 @@ Projeto Carta Misteriosa, projeto bonus.
 ## :interrobang: Motivo
 
 Terceiro projeto realizado no módulo de fundamento do curso na Trybe.
-Este é o terceiro projeto bonus desse bloco, bloco esse o 4. Foram 2 projetos obrigatórios e 3 bonus.
+Este é o terceiro projeto bonus desse bloco, bloco esse o 5. Foram 2 projetos obrigatórios e 3 bonus.
 Projeto realizado para consolidar os conhecimento aprendidos em HTML, CSS, JS, Web Storage,
 
 ## :seedling: Requisitos Mínimos
